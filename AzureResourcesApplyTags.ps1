@@ -3,7 +3,7 @@ Connect-AzAccount
 $TagFilePath="$($currentDir)\tags.csv"
  
 #You can modify the path here based on your requirements.
-$ResourceToTagFilePath="$($currentDir)\List_Of_All_Azure_Resources_$($date).csv"
+$ResourceToTagFilePath="$($currentDir)\List_Of_All_Azure_Resources_$($date)-Tags.csv"
   
 function convertCsvToHashTable($csvFile){
     $csv=import-csv $csvFile
