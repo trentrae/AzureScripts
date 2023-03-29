@@ -1,4 +1,6 @@
-connect-azAccount
+Connect-AzAccount -Environment AzureUSGovernment
+
+##Discovery of All Resource Groups and output to file
 $date = Get-Date -UFormat("%m-%d-%y")
 $currentDir = $(Get-Location).Path
 $oFile = "$($currentDir)\List_Of_All_Azure_Resources_$($date).csv"
