@@ -1,4 +1,4 @@
-Connect-AzAccount 
+Connect-AzAccount -Environment AzureUSGovernment
 # This can be modified based on your requirement.
 $TagFilePath="$($currentDir)\tags.csv"
  
